@@ -5,7 +5,7 @@ public class NoOfDays {
         Scanner ip=new Scanner(System.in);
         System.out.println("Enter the Month no : ");
         int n=ip.nextInt();
-        System.out.println((n==2)?"It's 28 or 29 Days":(n>=8)?(n%2==0)?"It's 31 Days":"It's 30 Days":(n%2==0)?"It's 30 Days":"It's 31 Days");
+        //System.out.println((n==2)?"It's 28 or 29 Days":(n>=8)?(n%2==0)?"It's 31 Days":"It's 30 Days":(n%2==0)?"It's 30 Days":"It's 31 Days");
         if(n==2){
             System.out.println("It's 28 or 29 Days");
         }
